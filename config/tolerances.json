@@ -1,0 +1,14 @@
+{
+  "_note": "Public verification tolerances. Changes require new hand-worked synthetic fixtures.",
+  "sheet_rounding": {
+    "max_abs_diff": 0.005,
+    "_why": "sheet stores 2dp values; anything beyond half-a-hundredth means sheet and DB disagree"
+  },
+  "cited_values": {
+    "cagr_pp": 1.5,
+    "sd_pp": 0.5,
+    "beta_abs": 0.15,
+    "sharpe_abs": 0.25,
+    "_why": "Allows documented differences between month-end and exact-date calculation conventions in synthetic comparison fixtures."
+  }
+}

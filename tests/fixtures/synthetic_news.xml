@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Synthetic business news</title>
+<item><title>ACME opens a new test facility</title><link>https://example.invalid/acme-facility</link><pubDate>Fri, 14 Mar 2025 09:00:00 GMT</pubDate><source>Synthetic Wire</source></item>
+<item><title>NOVA reports a fictional debt reduction</title><link>https://example.invalid/nova-debt</link><pubDate>Fri, 14 Mar 2025 08:00:00 GMT</pubDate><source>Synthetic Wire</source></item>
+</channel></rss>

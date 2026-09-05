@@ -1,0 +1,14 @@
+{
+  "methodology_version": "m2026.1",
+  "frequency": "monthly",
+  "risk_free_rate": 0.07,
+  "lookbacks": [
+    "3Y",
+    "1Y"
+  ],
+  "min_category_peers": 2,
+  "benchmark": {
+    "scheme_code": 900002,
+    "label": "Synthetic Index Fund proxy"
+  }
+}

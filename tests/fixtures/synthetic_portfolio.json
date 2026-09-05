@@ -1,0 +1,12 @@
+{
+  "as_of": "2025-03-14T10:00:00Z",
+  "currency": "USD",
+  "holdings": [
+    {"symbol": "ACME", "quantity": 12, "average_price": 40.0, "last_price": 44.0},
+    {"symbol": "NOVA", "quantity": 8, "average_price": 25.0, "last_price": 23.5}
+  ],
+  "transactions": [
+    {"id": "SYN-001", "symbol": "ACME", "side": "BUY", "date": "2025-01-03", "quantity": 12, "price": 40.0},
+    {"id": "SYN-002", "symbol": "NOVA", "side": "BUY", "date": "2025-02-04", "quantity": 8, "price": 25.0}
+  ]
+}

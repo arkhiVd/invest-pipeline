@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Private configuration
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+config/protected/
+
+# Financial and runtime data
+data/
+reference/
+*.db
+*.duckdb
+*.sqlite*
+*.parquet
+*.csv
+*.xlsx
+*.xls
+*.ods
+*.pdf
+*.log
+*.bak*
+
+# Reports and caches
+reports/
+exports/
+.cache/
+.DS_Store

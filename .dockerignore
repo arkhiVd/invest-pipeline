@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+data
+reference
+reports
+exports
+.env*
+*.db
+*.duckdb
+*.csv
+*.xlsx
+*.log

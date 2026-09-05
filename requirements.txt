@@ -1,0 +1,10 @@
+# Pinned 2026-08-25 via pip install + freeze on the development host (Python 3.12.3).
+# Bump only via TASKS task; record changes in SPEC.md pins table.
+aiohttp==3.14.3
+duckdb==1.5.5
+openpyxl==3.1.5
+pandas==3.0.5
+pytz==2026.3.post1
+streamlit==1.62.0
+pytest==9.1.1
+ruff==0.16.4

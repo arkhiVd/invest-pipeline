@@ -1,0 +1,30 @@
+[project]
+name = "invest-pipeline"
+version = "0.1.0"
+description = "Deterministic read-only investment research pipeline"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp==3.14.3",
+    "duckdb==1.5.5",
+    "openpyxl==3.1.5",
+    "pandas==3.0.5",
+    "pytz==2026.3.post1",
+    "streamlit==1.62.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.16.4",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

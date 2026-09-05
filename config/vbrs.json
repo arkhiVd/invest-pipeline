@@ -1,0 +1,9 @@
+{
+  "_note": "Public VBRS constants. The median is an example baseline; replace it with a documented point-in-time series for research.",
+  "investment_amount": 20000,
+  "base_cash_pct": 0.05,
+  "sensitivity": 0.3,
+  "median_pe": 23.4,
+  "cheap_below": 20.0,
+  "expensive_above": 28.0
+}

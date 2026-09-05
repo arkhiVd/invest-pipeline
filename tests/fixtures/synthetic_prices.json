@@ -1,0 +1,9 @@
+{
+  "timezone": "Asia/Kolkata",
+  "instrument": "ACME",
+  "bars": [
+    {"date": "2025-01-02", "open": 98.0, "high": 101.0, "low": 97.0, "close": 100.0},
+    {"date": "2025-01-03", "open": 100.0, "high": 103.0, "low": 99.0, "close": 102.0},
+    {"date": "2025-01-06", "open": 102.0, "high": 105.0, "low": 101.0, "close": 104.0}
+  ]
+}

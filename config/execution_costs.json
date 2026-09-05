@@ -1,0 +1,25 @@
+{
+  "methodology_version": "india-delivery-cost-2026.1-estimated",
+  "status": "ESTIMATED",
+  "historical_effective_dates_reconciled": false,
+  "assumption": "Current Zerodha/NSE delivery-equity rates retrieved 2026-08-31 are applied to the 2025+ diagnostic until effective-dated historical circulars are reconciled.",
+  "source_url": "https://zerodha.com/charges/#tab-equities",
+  "retrieved_on": "2026-08-31",
+  "schedules": [
+    {
+      "valid_from": "2025-01-01",
+      "valid_to": null,
+      "authority": "Zerodha consolidated delivery-equity charges schedule",
+      "evidence_status": "CURRENT_BACK_APPLIED",
+      "brokerage_rate": "0",
+      "stt_buy_rate": "0.001",
+      "stt_sell_rate": "0.001",
+      "exchange_rate": "0.0000307",
+      "sebi_rate": "0.000001",
+      "stamp_buy_rate": "0.00015",
+      "gst_rate": "0.18",
+      "dp_sell_per_scrip": "15.34"
+    }
+  ],
+  "slippage_scenarios_bps": [0, 5, 10]
+}

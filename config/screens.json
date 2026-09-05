@@ -1,0 +1,203 @@
+{
+  "_comment": "Versioned public screen predicates. Missing inputs fail closed and increment gap counts.",
+  "screens": {
+    "garp": {
+      "label": "GARP Efficiency",
+      "oracle": "hand-worked synthetic boundary fixtures for garp",
+      "conditions": {
+        "pe_ratio": {
+          "gt": 7,
+          "lt": 25
+        },
+        "peg": {
+          "lt": 1.2
+        },
+        "roe": {
+          "gt_pct": 25
+        },
+        "roce": {
+          "gt_pct": 20
+        },
+        "revenue_cagr_3y": {
+          "gt_pct": 18
+        },
+        "eps_cagr_3y": {
+          "gt_pct": 20
+        },
+        "debt_to_equity": {
+          "lt": 0.7
+        },
+        "free_cash_flow_3y": {
+          "gt": 0
+        },
+        "promoter_holding": {
+          "gt_pct": 40
+        }
+      }
+    },
+    "deep_value": {
+      "label": "Classic Deep-Value",
+      "oracle": "hand-worked synthetic boundary fixtures for deep_value",
+      "conditions": {
+        "market_cap_cr": {
+          "gt": 1000
+        },
+        "pb_ratio": {
+          "lt": 1.2
+        },
+        "pe_ratio": {
+          "gt": 0,
+          "lt": 12
+        },
+        "piotroski_score": {
+          "gt": 5
+        },
+        "current_ratio": {
+          "gt": 1.5
+        },
+        "revenue_growth_yoy": {
+          "gt_pct": 5
+        },
+        "fii_holding": {
+          "gt_pct": 2
+        }
+      }
+    },
+    "quality_pullback": {
+      "label": "Quality Momentum Pullback",
+      "oracle": "hand-worked synthetic boundary fixtures for quality_pullback",
+      "conditions": {
+        "market_cap_cr": {
+          "gt": 10000
+        },
+        "price_to_52w_high": {
+          "lt": 0.9
+        },
+        "price_above_50dma": {
+          "eq": true
+        },
+        "roe": {
+          "gt_pct": 18
+        },
+        "roce": {
+          "gt_pct": 18
+        },
+        "debt_to_equity": {
+          "lt": 0.5
+        },
+        "promoter_pledged": {
+          "eq": false
+        },
+        "revenue_cagr_3y": {
+          "gt_pct": 18
+        },
+        "profit_cagr_3y": {
+          "gt_pct": 18
+        }
+      }
+    },
+    "high_growth": {
+      "label": "High Growth",
+      "oracle": "hand-worked synthetic boundary fixtures for high_growth",
+      "conditions": {
+        "market_cap_cr": {
+          "gt": 1000
+        },
+        "price_to_52w_high": {
+          "lt": 0.7
+        },
+        "price_above_50dma": {
+          "eq": true
+        },
+        "roe": {
+          "gt_pct": 15
+        },
+        "roce": {
+          "gt_pct": 15
+        },
+        "debt_to_equity": {
+          "lt": 0.5
+        },
+        "promoter_pledged": {
+          "eq": false
+        },
+        "revenue_cagr_3y": {
+          "gt_pct": 15
+        },
+        "profit_cagr_3y": {
+          "gt_pct": 15
+        },
+        "peg": {
+          "lt": 1.5
+        }
+      }
+    },
+    "quality_value": {
+      "label": "Quality Value (Buffett-style)",
+      "oracle": "hand-worked synthetic boundary fixtures for quality_value",
+      "conditions": {
+        "market_cap_cr": {
+          "gt": 5000
+        },
+        "pe_ratio": {
+          "lt": 15
+        },
+        "pb_ratio": {
+          "lt": 1.5
+        },
+        "debt_to_equity": {
+          "lt": 0.4
+        },
+        "avg_roce_5y": {
+          "gt_pct": 15
+        },
+        "interest_coverage": {
+          "gt": 4
+        },
+        "dividend_yield": {
+          "gt_pct": 1
+        }
+      }
+    },
+    "beaten_down": {
+      "label": "Beaten-Down Quality",
+      "oracle": "hand-worked synthetic boundary fixtures for beaten_down",
+      "conditions": {
+        "market_cap_cr": {
+          "gt": 1000
+        },
+        "avg_roce_3y": {
+          "gt_pct": 30
+        },
+        "roce": {
+          "gt_pct": 20
+        },
+        "avg_roe_5y": {
+          "gt_pct": 20
+        },
+        "operating_margin": {
+          "gt_pct": 16
+        },
+        "revenue_cagr_3y": {
+          "gt_pct": 15
+        },
+        "profit_cagr_3y": {
+          "gt_pct": 15
+        },
+        "price_to_all_time_high": {
+          "between": [
+            0.6,
+            0.8
+          ],
+          "_gap": "true pre-2025 ATH history not loaded"
+        },
+        "eps_increased": {
+          "eq": true
+        },
+        "pe_ratio": {
+          "lt": 40
+        }
+      }
+    }
+  }
+}

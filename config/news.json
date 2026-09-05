@@ -1,0 +1,56 @@
+{
+  "backend": "codex_exec",
+  "codex_bin": "codex",
+  "model": "gpt-5.6-luna",
+  "max_calls_per_run": 5,
+  "max_attempts_per_article": 3,
+  "max_age_days": 7,
+  "max_future_minutes": 30,
+  "max_feed_bytes": 524288,
+  "request_timeout_seconds": 20,
+  "google_max_items_per_entity": 20,
+  "entity_aliases": {
+    "ACME": [
+      "ACME SYNTHETIC"
+    ],
+    "NOVA": [
+      "NOVA SYNTHETIC"
+    ],
+    "ZEAL": [
+      "ZEAL SYNTHETIC"
+    ]
+  },
+  "event_terms": [
+    "acquisition",
+    "appoints",
+    "auditor",
+    "board",
+    "buyback",
+    "contract",
+    "dividend",
+    "earnings",
+    "fraud",
+    "investigation",
+    "merger",
+    "order win",
+    "profit",
+    "quarter",
+    "rating",
+    "regulator",
+    "revenue",
+    "results",
+    "resigns",
+    "stake",
+    "tax",
+    "warning"
+  ],
+  "excluded_terms": [
+    "buy call",
+    "buy, sell or hold",
+    "price target",
+    "stock picks",
+    "stocks to buy",
+    "technical view",
+    "trading call"
+  ]
+}

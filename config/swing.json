@@ -1,0 +1,14 @@
+{
+  "universe_index": "NIFTY 100",
+  "benchmark": "NIFTY 50",
+  "window_days": 252,
+  "min_observations": 200,
+  "max_price": 3000.0,
+  "top_n": 20,
+  "max_price_age_days": 10,
+  "constituent_min_count": 90,
+  "capital": 100000,
+  "risk_fraction": 0.02,
+  "stop_mode": "ema21",
+  "initial_lookback_days": 5
+}
