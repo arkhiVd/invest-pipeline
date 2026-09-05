@@ -9,7 +9,7 @@ dependencies = [
     "openpyxl==3.1.5",
     "pandas==3.0.5",
     "pytz==2026.3.post1",
-    "streamlit==1.62.0",
+    "streamlit==1.63.0",
 ]
 
 [dependency-groups]
