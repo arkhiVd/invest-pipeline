@@ -9,7 +9,11 @@ WORKDIR /app
 COPY --from=uv /uv /usr/local/bin/uv
 COPY . /app
 RUN uv sync --frozen --no-dev \
-    && rm /usr/local/bin/uv
+    && rm /usr/local/bin/uv \
+    && rm -rf /usr/local/lib/python3.12/site-packages/pip* \
+              /usr/local/lib/python3.12/site-packages/setuptools* \
+              /usr/local/lib/python3.12/site-packages/wheel* \
+              /usr/local/bin/pip*
 
 USER 65532:65532
 CMD [".venv/bin/python", "-c", "import invest; print('invest-pipeline')"]
